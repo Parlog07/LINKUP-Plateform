@@ -188,7 +188,7 @@
                                         </div>
                                         <div>
                                             <h3 class="font-bold text-gray-900">{{ $user->first_name }} {{ $user->last_name }}</h3>
-                                            <p class="text-sm text-gray-500">@{{ $user->username }}</p>
+                                            <p class="text-sm text-gray-500">{{ $user->username }}</p>
                                             <div class="flex items-center mt-1">
                                                 <i class="fas fa-map-marker-alt text-gray-400 text-xs mr-1"></i>
                                                 <span class="text-xs text-gray-600">{{ $user->location ?? 'Unknown location' }}</span>
